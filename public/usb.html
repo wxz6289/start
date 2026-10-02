@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>USB Device Manager</title>
+</head>
+<body>
+  <h1>USB Device Manager</h1>
+  <div>
+    <h2>Granted USB Devices</h2>
+    <pre id="granted-device-list"></pre>
+  </div>
+  <div>
+    <h2>Requested USB Device</h2>
+    <pre id="requested-device"></pre>
+  </div>
+  <button id="request-device-button">Request USB Device</button>
+  <script src="./usb-render.js"></script>
+</body>
+</html>
